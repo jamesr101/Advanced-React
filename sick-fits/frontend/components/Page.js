@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Header from '../components/Header'
 import Meta from '../components/Meta'
 
-
-
 class Page extends Component {
   render() {
 
@@ -11,8 +9,6 @@ class Page extends Component {
       <div>
         <Meta/>
         <Header/>
-
-
         {this.props.children}
       </div>
     )
