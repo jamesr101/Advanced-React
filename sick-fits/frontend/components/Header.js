@@ -41,7 +41,7 @@ const StyledHeader = styled.header`
     justify-content: space-between;
     align-items: stretch;
     @media (max-width: 1300px) {
-      grid-template-columns: auto 1fr;
+      grid-template-columns: 1fr;
       justify-content: centre;
     }
   }
